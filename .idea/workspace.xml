@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84252283-04a1-4c74-bf2c-db85cec5bf57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ElegantDark.qss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolery.qss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VidComp2.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/how-to-guide.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/reference.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Video_compressor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Video_compressor.iml" afterDir="false" />
+    <list default="true" id="84252283-04a1-4c74-bf2c-db85cec5bf57" name="Changes" comment="Forgot to add the .ui file...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/VidComp2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElegantDark.qss" beforeDir="false" afterPath="$PROJECT_DIR$/ElegantDark.qss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VidComp2.py" beforeDir="false" afterPath="$PROJECT_DIR$/VidComp2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VidComp2.spec" beforeDir="false" afterPath="$PROJECT_DIR$/VidComp2.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VideoCompressionApp.ui" beforeDir="false" afterPath="$PROJECT_DIR$/VideoCompressionApp.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AVN-Snax"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AVN-Snax/Ren-Py-Video-Compressor.git",
+    "accountId": "f8700f3a-a72d-451b-86e3-da84e1251f50"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -47,9 +56,9 @@
     &quot;Python.scratch_2.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OneDrive/Projects/Video_compressor&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rwetm/Downloads/Ren-Py-Video-Compressor-main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -63,6 +72,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OneDrive\Projects\Video_compressor" />
+      <recent name="D:\OneDrive\Projects\Video_compressor\src" />
     </key>
   </component>
   <component name="RunManager" selected="Python.VidComp2">
@@ -80,7 +90,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VidComp2.py" />
+      <option name="SCRIPT_NAME" value="D:\OneDrive\Projects\Video_compressor\VidComp2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,6 +147,46 @@
       <option name="presentableId" value="Default" />
       <updated>1733675189984</updated>
     </task>
+    <task id="LOCAL-00001" summary="Final (?) version, in preparation for upload to GitHub">
+      <option name="closed" value="true" />
+      <created>1734637001210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734637001210</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rearranged files according to recommendations by pyinstaller. It now properly builds .exe files without having to point it at .venv/Lib/site-packages">
+      <option name="closed" value="true" />
+      <created>1734638500070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734638500070</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first-commit">
+      <option name="closed" value="true" />
+      <created>1734639870907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734639870907</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Forgot to add the .ui file...">
+      <option name="closed" value="true" />
+      <created>1734642709957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734642709957</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final (?) version, in preparation for upload to GitHub" />
+    <MESSAGE value="Rearranged files according to recommendations by pyinstaller. It now properly builds .exe files without having to point it at .venv/Lib/site-packages" />
+    <MESSAGE value="first-commit" />
+    <MESSAGE value="Forgot to add the .ui file..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Forgot to add the .ui file..." />
   </component>
 </project>
