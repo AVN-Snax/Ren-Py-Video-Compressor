@@ -3,7 +3,7 @@
 
 a = Analysis(
     ['VidComp2.py'],
-    pathex=['.venv/Lib/site-packages'],
+    pathex=[],
     binaries=[],
     datas=[('./VideoCompressionApp.ui', '.'), ('./ElegantDark.qss', '.')],
     hiddenimports=[],

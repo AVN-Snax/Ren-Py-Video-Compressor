@@ -55,7 +55,7 @@ def resource_path(relative_path: str) -> str:
         base_path = sys._MEIPASS  # noqa
     except AttributeError:
         # If not running as a bundled executable, use the absolute path of the current directory
-        base_path = os.path.abspath(".")
+        base_path = os.path.abspath("..")
 
     # Join the base path with the relative path to construct the absolute path to the resource file
     return os.path.join(base_path, relative_path)
@@ -629,6 +629,7 @@ if __name__ == "__main__":
     # Set to True for debugging purposes.
     # This will pre-set the input and output folders to specific locations for debugging.
     # DEBUGGING = False
+    print(sys.prefix, flush=True, file=sys.stderr)
 
     # Create a QApplication and run the application
     app: QApplication = QApplication(sys.argv)
